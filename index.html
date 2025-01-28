@@ -9,29 +9,81 @@
 </head>
 <body>
     <div class="container">
+        <nav class="sidebar">
+            <h1>Joshua Leicht</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <main class="content">
             <section id="home">
-                <h3>Viewing the Public Page</h3>
-                <p>go to <a href="https://Jeremy924.github.io/joshua">Jeremy924.github.io/joshua</a> to view the current website</p>
-                <h2>How to setup Website</h2>
-                <h3>Setup GitHub.</h3>
-                <p>You will need a Github Account. Once you set it up, tell me your username and I can give you access to editing the website</p>
-                <h3>Download Git</h3>
-                <p>Download Git from <a href="https://git-scm.com/downloads">here</a>. You can use all the default settings when installing git</p>
-                <h3>Cloning the repo</h3>
-                <p>First, create the folder where you want to store the project files. Inside the folder, right click and click on the "open in terminal" button.<br>Then in your teriminal, use the following commands: <br><br>git init<br>git remote add origin https://github.com/Jeremy924/Jeremy924.github.io.git<br>git pull origin main<br>git checkout main<br><br></p>
-                <h3>Editing the HTML</h3>
-                <p>Just copy the formatting for the other html to add whatever you want. Ask ChatGPT to add images to the HTML. 
-                    <br>To make the images accessible, just put them into the project folder. For your resume, you can also just put it in the folder, just make sure to change the link to be the name of the file.
-                <br><b>Make sure you put everything in the /joshua folder within the project folder, otherwise it won't find any of the files</b> </p>
-                <h3>Viewing the Website Locally</h3>
-                <p>Open up your web browser, and type file:/// followed by the full file address for the project folder (ex. C:\Users\Jerem\...). Add /Joshua to view your portfolio</p>
-                <h3>Pushing the Changes to the Public Website</h3>
-                <p>Go back to the terminal, make sure it is in the project folder. Run the following commands. 
-                    <b>Make sure you update the message for git commit so that it is something meaninful</b></b></p>
-                    <p>git add .<br>git commit -m 'message'<br>git push origin main</p><br><br><p>Wait a few seconds for it to send it to gitub, then go back to the public website and it should now be visible (you may have to wait a few minutes for the website to actually update)</p>
+                <h2>Welcome to My Portfolio</h2>
+                <p>Hello, I’m Joshua Leicht, a senior studying Mechanical Engineering at the University of Illinois Urbana-Champaign. During my time at UIUC, I’ve had the opportunity to design numerous projects using CAD software and implement them through modern manufacturing techniques. At my internships, I designed a wiping mechanism to be integrated into an existing platform using traditional manufacturing methods. I also designed numerous cosmetic parts for their latest product and assembled the complete product in both SolidWorks and real life. Additionally, through my coursework, I have gained a strong foundation in signals, fluid dynamics, thermodynamics, and programming, which allows me to quickly adapt to new challenges. In my free time, I enjoy powerlifting, playing basketball, and singing in the choir.</p>
+                <h3>Education</h3>
+                <p>University of Illinois Urbana-Champaign – Expected May 2025</p>
+                <p>Bachelor of Science in Mechanical Engineering – GPA: 3.93 / 4.00</p>
+                
+                <!-- Skills Section -->
+                <h3>Skills</h3>
+                <div class="skills-container">
+                    <div class="skills-column">
+                        <ul>
+                            <li><strong>Digital Fabrication Tools:</strong>
+                                <ul>
+                                    <li>Fusion 360</li>
+                                    <li>SolidWorks</li>
+                                    <li>Inventor</li>
+                                    <li>Abaqus CAE</li>
+                                    <li>Prusa Slicer</li>
+                                    <li>Cura</li>
+                                </ul>
+                            </li>
+                            <li><strong>Programming Languages:</strong>
+                                <ul>
+                                    <li>Python (Matplotlib, CoolProp, NumPy, SymPy)</li>
+                                    <li>Excel</li>
+                                    <li>MATLAB</li>
+                                    <li>Simulink</li>
+                                </ul>
+                            </li>
+                            <li><strong>Tools:</strong>
+                                <ul>
+                                    <li>3D Printing</li>
+                                    <li>Welding</li>
+                                    <li>Soldering</li>
+                                    <li>Laser Cutting</li>
+                                    <li>General Assembly</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Coursework Section -->
+                <h3>Related Coursework</h3>
+                <div class="coursework-container">
+                    <ul>
+                        <li>Finite Element Analysis</li>
+                        <li>Mechanical Design II</li>
+                        <li>Dynamics of Mechanical Systems</li>
+                        <li>Signal Processing</li>
+                        <li>Engineering Materials</li>
+                        <li>Energy Conversion Systems</li>
+                        <li>Introduction to Heat Transfer</li>
+                    </ul>
+                </div>
             </section>
         </main>
+    </div>
+
+    <div class="logo">
+        <img src="img/UIUC-logo.gif" alt="Logo">
+    </div>
+    <div class="image-container">
+        <img src="img\Screenshot_24-4-2024_13329_www.fotor.com.jpeg" alt="Personal Photo">
     </div>
 </body>
 </html>
